@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Hem extends Component {
     state = {  }
     render() { 
-        return ( <div>Hem</div> );
+        return ( <div>VÄLKOMMEN TILL RONNA REHAB!</div> );
     }
 }
  

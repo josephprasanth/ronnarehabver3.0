@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ViErbjuder = () => {
-    return ( <div>About</div> );
+    return ( <div>Vi Erbjuder : Lymfterapi, Artrosskola, Akupunktur, Idrottsmedicin , Ortopediskt manuell terapi (OMT)</div> );
 }
  
 export default ViErbjuder;

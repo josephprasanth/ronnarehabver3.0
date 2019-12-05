@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavigationBar';
+import Header from './Header';
+import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +9,9 @@ class App extends Component {
     render() { 
         return ( 
             <>
-            <NavBar />            
+            <Header />
+            <NavBar />
+            <Footer />            
             </>
          );
     }

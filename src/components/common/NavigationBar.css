@@ -1,4 +1,13 @@
 .NavBar {
+    background-color: cobaltblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.NavBar ul li {
     list-style-type: none;
     text-decoration: none;
 }
+
