@@ -1,4 +1,5 @@
 /*Common Nav Styles*/
+
 .navigation-wrapper {
     height: 190px;
     background-color: #11122b;
@@ -9,10 +10,31 @@
     padding: 60px 100px ; 
 }
 
-.contact-hours-wrapper {
-    color: red;
+.left-column {
+    display: flex;
+    align-items: center;    
+}
+
+.icon {
+    margin-right: 15px;
+    font-size: 2em;
+}
+
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;    
+}
+
+.contact-hours-wrapper > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.right-column {    
+        display: flex;
+        align-items: center;        
 }
 
 .address-wrapper {
-    color: rgb(177, 27, 77);
+    font-family: 'Ubuntu Condensed', sans-serif;
 }

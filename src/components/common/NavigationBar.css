@@ -11,3 +11,7 @@ a {
     text-decoration: none;
 }
 
+.nav-link {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: gold;
+}

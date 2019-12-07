@@ -9,19 +9,30 @@ class Header extends Component {
         return (
             <>
                 <div className="navigation-wrapper">
-                    <div className="contact-hours-wrapper">
+
+                    <div className="left-column">
+                        <div className="icon">
                         <FontAwesomeIcon icon={faPhoneVolume} />
-                        08-550 33233
-                        08:00-16:00
+                        </div>
+                        <div className="contact-hours-wrapper">
+                        <div className="phone">08-5503 3233</div>
+                        <div className="hours"> 08:00 - 16:00</div>
+                        </div>
                     </div>
+
                     <div className="logo">
                         Welcome To Ronna Rehab
                     </div>
-                    <div className="address-wrapper">
-                        {/*Adress*/}
+
+                    <div className="right-column">
+                        <div className="icon">
                         <FontAwesomeIcon icon={faMapMarkerAlt} />
-                        Robert Anbergs Väg 33, Södertälje
+                        </div>
+                        <div className="address-wrapper">
+                            Robert Anbergs Väg 33, Södertälje
                     </div>
+                    </div>
+
                 </div>
             </>
         );
