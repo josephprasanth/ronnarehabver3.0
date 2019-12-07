@@ -1,0 +1,18 @@
+/*Common Nav Styles*/
+.navigation-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px ; 
+}
+
+.contact-hours-wrapper {
+    color: red;
+}
+
+.address-wrapper {
+    color: rgb(177, 27, 77);
+}

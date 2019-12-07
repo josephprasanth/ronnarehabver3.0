@@ -17,14 +17,31 @@ import HittaMottagning from '../routes/Hittamottagning';
 
 const NavBar = () => (
   <Router>
-     {/*Navigation Wrapper*/} 
-     <div className="NavBar">
-     {/*Link Wrapper*/}
-      <h2><Link to="/">Hem</Link></h2>
-      <h2><Link to="/vierbjuder">Vi Erbjuder</Link></h2>
-      <h2><Link to="/braattveta">Bra Att Veta</Link></h2>
-      <h2><Link to="/omoss">Om Oss</Link></h2>
-      <h2><Link to="/hittamottagning">Hitta Mottagning</Link></h2>
+
+    {/*Navigation Wrapper*/}
+    <div className="NavBar">
+
+      {/*Link Wrapper*/}
+      <div>
+
+        {/*Nav Link*/}
+        <div className="nav-link">
+          <Link to="/">Hem</Link>
+        </div>
+        <div className="nav-link">
+          <Link to="/vierbjuder">Vi Erbjuder</Link>
+        </div>
+        <div className="nav-link">
+          <Link to="/braattveta">Bra Att Veta</Link>
+        </div>
+        <div className="nav-link">
+          <Link to="/omoss">Om Oss</Link>
+        </div>
+        <div className="nav-link">
+          <Link to="/hittamottagning">Hitta Mottagning</Link>
+        </div>
+
+      </div>
 
       <hr />
 
