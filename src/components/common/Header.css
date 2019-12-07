@@ -38,3 +38,8 @@
 .address-wrapper {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
+
+.banner-image img {
+    width: 160px;
+    height: 100%;
+}
