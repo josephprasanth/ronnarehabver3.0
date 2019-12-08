@@ -3,24 +3,25 @@
 .navigation-wrapper {
     height: 190px;
     background-color: #11122b;
-    color: #cbcbcb;
+    color: #9e353b;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 60px 100px ; 
 }
 
-.left-column {
+.navigation-wrapper > .left-column {
     display: flex;
     align-items: center;    
 }
 
-.icon {
+.icon fontAwesome{
     margin-right: 15px;
     font-size: 2em;
+    color: #9e353b;
 }
 
-.left-column > .contact-hours-wrapper {
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;    
@@ -30,16 +31,21 @@
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.right-column {    
+.navigation-wrapper > .right-column {    
         display: flex;
         align-items: center;        
 }
 
-.address-wrapper {
+.navigation-wrapper > .right-column > .address-wrapper {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.banner-image img {
-    width: 160px;
+.navigation-wrapper > .center-column > .banner-image img {
+    width: 100px;
     height: 100%;
+}
+
+
+.banner-message {
+    text-align: center;
 }

@@ -22,7 +22,7 @@ const NavBar = () => (
     <div className="NavBar">
 
       {/*Link Wrapper*/}
-      <div>
+      <div className="links-wrapper">
 
         {/*Nav Link*/}
         <div className="nav-link">

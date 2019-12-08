@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
-import logo from '../resources/images/logobig.png';
-
+import logo from '../resources/images/logobig-2.png';
+import NavigationBar from './NavigationBar';
 class Header extends Component {    
     render() {
         return (
@@ -20,13 +20,14 @@ class Header extends Component {
                         </div>
                     </div>
 
-                    <div className="middle-column">
+                    <div className="center-column">
                         <div className="banner-image">
                             <img src={logo} alt="Logo"/>
                         </div>
-                        <div className="intro">
+                        <div className="banner-message">
                             Ronna Rehab Ab
                     </div>
+                   {/*NavigationBar*/}
                     </div>
 
                     <div className="right-column">

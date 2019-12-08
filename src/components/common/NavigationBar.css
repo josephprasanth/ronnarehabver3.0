@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-.nav-link {
+.links-wrapper > .nav-link a{
     font-family: 'Ubuntu Condensed', sans-serif;
-    color: gold;
+    color: rgb(184, 157, 6);
 }
