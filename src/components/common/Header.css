@@ -10,12 +10,14 @@
     padding: 60px 100px ; 
 }
 
+/*Left Column Styles*/
+
 .navigation-wrapper > .left-column {
     display: flex;
     align-items: center;    
 }
 
-.icon fontAwesome{
+.navigation-wrapper > .left-column > .phone-icon {
     margin-right: 15px;
     font-size: 2em;
     color: #9e353b;
@@ -28,24 +30,39 @@
 }
 
 .contact-hours-wrapper > .hours {
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;    
+    font-size: 0.8em;
 }
 
-.navigation-wrapper > .right-column {    
-        display: flex;
-        align-items: center;        
+
+/*Center Column Styles*/
+
+.navigation-wrapper > .center-column > .banner-image img {
+    width:  100px;
+    height: 100%;
+}
+
+.navigation-wrapper > .center-column > .banner-message {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/*Right Column Styles*/
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
 }
 
 .navigation-wrapper > .right-column > .address-wrapper {
     font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;      
 }
 
-.navigation-wrapper > .center-column > .banner-image img {
-    width: 100px;
-    height: 100%;
+.navigation-wrapper > .right-column > .contact-icon { 
+    font-size: 2em;
+    color: #9e353b;
+    margin-left: 15px;
 }
 
-
-.banner-message {
-    text-align: center;
-}

@@ -14,36 +14,35 @@ import ViErbjuder from "../routes/Vierbjuder";
 import BraAttVeta from "../routes/Braattveta";
 import OmOss from '../routes/Omoss';
 import HittaMottagning from '../routes/Hittamottagning';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome,faInfoCircle,faCoffee,faAddressCard } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => (
   <Router>
 
     {/*Navigation Wrapper*/}
-    <div className="NavBar">
+    <div className="nav-bar">
 
       {/*Link Wrapper*/}
       <div className="links-wrapper">
 
         {/*Nav Link*/}
         <div className="nav-link">
-          <Link to="/">Hem</Link>
+          <Link to="/"><FontAwesomeIcon icon={faHome} /></Link>
         </div>
         <div className="nav-link">
-          <Link to="/vierbjuder">Vi Erbjuder</Link>
+          <Link to="/vierbjuder"><FontAwesomeIcon icon={faCoffee} style={{ marginRight : 4 }} />Vi Erbjuder</Link>
         </div>
         <div className="nav-link">
-          <Link to="/braattveta">Bra Att Veta</Link>
+          <Link to="/braattveta"><FontAwesomeIcon icon={faInfoCircle} style={{ marginRight : 4 }} />Bra Att Veta</Link>
         </div>
+        
         <div className="nav-link">
-          <Link to="/omoss">Om Oss</Link>
-        </div>
-        <div className="nav-link">
-          <Link to="/hittamottagning">Hitta Mottagning</Link>
+          <Link to="/hittamottagning"><FontAwesomeIcon icon={faAddressCard} /></Link>
         </div>
 
       </div>
-
-      <hr />
+      
 
       <Switch>
         <Route exact path="/" render={() => <Redirect to="/hem" />} />

@@ -1,17 +1,29 @@
-.NavBar {
-    background-color: cobaltblue;
-}
-
-a {
-    text-decoration: none;
-}
-
-.NavBar ul li {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.links-wrapper > .nav-link a{
+.links-wrapper {    
     font-family: 'Ubuntu Condensed', sans-serif;
-    color: rgb(184, 157, 6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #11122b;
+    padding-bottom: 20px;       
+}
+
+.nav-bar > .links-wrapper > .nav-link {
+    width: 120px;
+    text-align: center;
+}
+
+.nav-bar > .links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #9e353b;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-bar > .links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.icon {    
+    font-size: 2em;    
 }
