@@ -11,5 +11,20 @@
 }
 
 .hero-section > .top-heading {
-    
+    padding: 1px 5px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 420px;
+    text-align: center;
+    border-radius: 2px; 
+}
+
+.hero-section > .bottom-heading {
+  background-color: #CCCCCC;
+  color: #11122b;
+  padding: 1px 1px;
+  margin-top: 15px;
+  width: 276px;
+  border-radius: 2px;
+  text-align: center;
 }
