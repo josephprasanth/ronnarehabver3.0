@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSmileBeam,faUserInjured,faUniversity } from '@fortawesome/free-solid-svg-icons';
 import './Hem.css';
 
 class Hem extends Component {
@@ -18,19 +20,19 @@ class Hem extends Component {
                     <div className="columns-wrapper">
                         <div className="column">
                             {/*Icon goes here*/}
-
+                            <FontAwesomeIcon icon={faUserInjured} />
                             <p>Patientens Fokus</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div className="column">
                             {/*Icon goes here*/}
-
+                            <FontAwesomeIcon icon={faSmileBeam} />    
                             <p>ArbetsGlädje</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div className="column">
                             {/*Icon goes here*/}
-
+                            <FontAwesomeIcon icon={faUniversity}  />
                             <p>Kunskap</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
