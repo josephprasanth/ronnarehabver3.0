@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
-import logo from '../resources/images/logos/logobig-2.png';
+import logo from '../resources/images/logos/RonnaClipped.png';
 
 class Header extends Component {
     render() {
