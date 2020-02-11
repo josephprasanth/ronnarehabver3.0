@@ -5,18 +5,18 @@ import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
-    state = {  }
-    render() { 
-        return ( 
+    state = {}
+    render() {
+        return (
             <>
-            <Header />
-            <NavBar />
-            <Footer />            
+                <Header />
+                <NavBar />
+                <Footer />
             </>
-         );
+        );
     }
 }
- 
+
 export default App;
 
 

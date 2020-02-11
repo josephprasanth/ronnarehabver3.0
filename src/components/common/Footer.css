@@ -1,8 +1,37 @@
+body {
+    background: #11122b;
+}
+.base-footer-container {    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.social-media-icons-wrapper {    
+    width: 200px;
+    height: 50px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    color: #9e353b;  
+}
+
+
+.social-media-icons-wrapper a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.social-media-icons-wrapper a {   
+    color: #9e353b;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
 .footerMain {
     display: flex;
     align-items: center;
     justify-content: center;    
-    height: 50px;
-    background-color: #11122b;
+    height: 50px;    
     color: #9e353b;
 }
