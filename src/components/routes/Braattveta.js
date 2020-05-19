@@ -1,8 +1,22 @@
 import React from 'react';
 
 const BraAttVeta = () => {
-    return ( <div>Vem som kan få hjälp
-        Alla har möjlighet att välja mottagning för sin rehabilitering...........</div> );
+    return (
+        <div className="skewed-header">
+
+            <div className="header-bg">
+
+            </div>
+            <div className="skewed-header-wrapper">
+                <div className="skewed-header-content">
+                    <div className="heading-wrapper">
+                        <h1>Bra Att Veta</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    );
 }
- 
+
 export default BraAttVeta;

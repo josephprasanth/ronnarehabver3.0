@@ -1,37 +1,42 @@
 body {
     background: #11122b;
 }
+
 .base-footer-container {    
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
     width: 100%;
 }
 
-.social-media-icons-wrapper {    
+.base-footer-container >  .social-media-icons-wrapper {    
     width: 200px;
     height: 50px;
     display: flex;  
     justify-content: space-around;
     align-items: center;
-    color: #9e353b;  
+    color: #9e353b;     
 }
 
-
-.social-media-icons-wrapper a:hover {
-    color: #cea135;
-    letter-spacing: 2px;
-}
-
-.social-media-icons-wrapper a {   
+.base-footer-container > .social-media-icons-wrapper a {   
     color: #9e353b;
     text-decoration: none;
     transition: 0.5s;
 }
 
-.footerMain {
+.base-footer-container >  .social-media-icons-wrapper a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.base-footer-container > .copyright-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;    
     height: 50px;    
     color: #9e353b;
+    font-family: 'Ubuntu Condensed', sans-serif;    
+    font-size: 0.8em;
 }

@@ -2,10 +2,8 @@ import React from 'react';
 import './Footer.css';
 import {
     BrowserRouter as Router,
-    Route,
     Link,
-    Switch,
-    Redirect
+    Switch
 } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -28,6 +26,10 @@ const Footer = () => {
                         </div>
                     </div>
 
+                    <div className="copyright-wrapper">
+                        Website - Branded and Created in React by Prasanth Joseph - &copy; 2020 All rights reserved
+                    </div>
+
                 </div>
 
                 <Switch>
@@ -36,9 +38,7 @@ const Footer = () => {
             </Router>
 
 
-            <div className="footerMain">
-                Website - Branded and Created in React by Prasanth Joseph - Copyright 2020 - All rights reserved
-            </div>
+
         </>
     );
 }
